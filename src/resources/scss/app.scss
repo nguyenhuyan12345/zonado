@@ -1,0 +1,41 @@
+// base
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+// Header
+@import 'topbar';
+@import 'searchbar';
+@import 'main-nav';
+
+// Home
+@import 'home';
+
+// footer
+@import 'footer';

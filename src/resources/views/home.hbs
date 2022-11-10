@@ -1,0 +1,129 @@
+<div class='awe-section-1'>
+    <div class='product-fluid'>
+        <div class='container'>
+            <div class='row'>
+                <div class='col-12'>
+                    <div class='swiper head-swiper'>
+                        <!-- Additional required wrapper -->
+                        <div class='swiper-wrapper'>
+                            <!-- Slides -->
+                            {{#each homeSlider}}
+                                <div class='swiper-slide'>
+                                    <a href=''>
+                                        <img
+                                            class='product-fluid__box__img'
+                                            src={{this}}
+                                            alt='home slider'
+                                        />
+                                    </a>
+                                </div>
+                            {{/each}}
+                        </div>
+                        <!-- If we need navigation buttons -->
+                        <div class='swiper-button-prev'></div>
+                        <div class='swiper-button-next'></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='awe-section-2'>
+    <div class='section-policy'>
+        <div class='container'>
+            <div class='row list-policy'>
+                <div class='col-4 item-pilicy'>
+                    <img
+                        class='item-pilicy__img'
+                        src='https://theme.hstatic.net/200000163831/1000713867/14/icon-policy1.png?v=119'
+                        alt=''
+                    />
+                    <span>
+                        Freeship toàn quốc đơn >399K
+                    </span>
+                </div>
+                <div class='col-4 item-pilicy'>
+                    <img
+                        class='item-pilicy__img'
+                        src='https://theme.hstatic.net/200000163831/1000713867/14/icon-policy2.png?v=119'
+                        alt=''
+                    />
+                    <span>
+                        Kiểm tra hàng trước khi thanh toán
+                    </span>
+                </div>
+                <div class='col-4 item-pilicy'>
+                    <img
+                        class='item-pilicy__img'
+                        src='https://theme.hstatic.net/200000163831/1000713867/14/icon-policy3.png?v=119'
+                        alt=''
+                    />
+                    <span>
+                        Hỗ trợ đổi size trong vòng 07 ngày
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class='awe-section-3'>
+    <div class='section-product'>
+        <div class='container'>
+            <div class='row section-product__header'>
+                <h2 class='section-product__label'>HÀNG MỚI VỀ</h2>
+            </div>
+            <div class='list-product'>
+                <div class='row'>
+                    <div class='swiper product-swiper auto-play'>
+                        <div class='swiper-wrapper'>
+                            {{#each newProductSlider}}
+                                <div class='swiper-slide'>
+                                    <div
+                                        class='card card-box card-box--home'
+                                        style='width: 18rem;'
+                                    >
+                                        <img
+                                            src={{this}}
+                                            class='card-img-top'
+                                            alt='Lỗi hình ảnh'
+                                        />
+                                        <div class='card-body'>
+                                            <h5
+                                                title='JOGGER NAM CHẤT KAKI KHÓA KÉO FROM CHUẨN
+                                    ZONADO ZJGK01 (CHỌN MÀU)'
+                                                class='card-title card-title--home'
+                                            >
+                                                QUẦN JOGGER NAM CHẤT KAKI KHÓA
+                                                KÉO FROM CHUẨN ZONADO ZJGK01
+                                                (CHỌN MÀU)
+                                            </h5>
+                                            <p class='card-sold'>(Đá bán 2)</p>
+                                            <p class='card-price'>259,000
+                                                <span>đ</span></p>
+                                            <a
+                                                href='#'
+                                                class='btn btn-light btn-add-card'
+                                            >
+                                                <i class='fa-solid fa-plus'></i>
+                                                Thêm vào giỏ
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            {{/each}}
+                        </div>
+                        <div class='swiper-button-prev ab'></div>
+                        <div class='swiper-button-next ab'></div>
+                    </div>
+                </div>
+                <div class='row viewmore'>
+                    <button class='btn btn-light btn-viewmore'>
+                        <a href='/new-products'>XEM THÊM</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

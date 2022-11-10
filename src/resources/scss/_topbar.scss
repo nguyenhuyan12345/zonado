@@ -1,0 +1,53 @@
+@import 'variables';
+
+.topbar {
+    flex-flow: column;
+    text-align: center;
+    background-color: #0f3057;
+}
+
+.topbar > div {
+    padding: 0 100px;
+}
+
+.topbar__item {
+    height: 41px;
+}
+
+.topbar-marquee {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+
+.topbar-marquee__item {
+    color: #fff;
+}
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.topbar-right__item {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.topbar-right__item:hover {
+    cursor: pointer;
+}
+
+.topbar-right__icon {
+    margin-right: 5px;
+}
+
+.topbar-right__check {
+}
+
+.topbar-right__zocoin {
+}
